@@ -39,3 +39,6 @@ jobs:
 
       - name: Mostrar mensaje de éxito
         run: echo "Pipeline completado con éxito!."
+
+      - name: Provocar fallo intencional
+        run: exit 1
